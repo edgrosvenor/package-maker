@@ -1,10 +1,12 @@
+<?php
+
 namespace Tests\Unit;
 
-use App\Actions\{{ $name }};
+use App\Actions\Happy;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
-class {{ $name }}Test extends TestCase
+class HappyTest extends TestCase
 {
     public function setUp(): void
     {
@@ -12,7 +14,7 @@ class {{ $name }}Test extends TestCase
     }
 
     /** test */
-    public function can_{{ \Illuminate\Support\Str::kebab($name) }}()
+    public function can_happy()
     {
         $this->assertTrue(false);
     }

@@ -1,6 +1,8 @@
+<?php
+
 namespace App\Actions;
 
-class {{ $name }}
+class Happy
 {
     public function __construct()
     {

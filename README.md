@@ -1,6 +1,5 @@
 # (Mostly) Vanilla Laravel
-Because I TDD my Laravel packages, I lean pretty heavily on [Orchestra Testbench](https://github.com/orchestral
-/testbench) to ensure that they behave the way I expect them to. But it usually make sense to give them a good once
+Because I TDD my Laravel packages, I lean pretty heavily on [Orchestra Testbench](https://github.com/orchestral/testbench) to ensure that they behave the way I expect them to. But it usually make sense to give them a good once
  over in a real live Laravel site. This is the base Laravel installation I'm currently using.
 
 I keep all my packages at `~/Packages/{vendor}/{package}` while I'm working on them. So if I'm working with one of my

@@ -20,7 +20,7 @@ This lines up with a relative path from where I keep my sites at `~/Sites`. I ca
     "require": {
         "edgrosvenor/stubby": "dev/master",
         "exactsports/coackpackage": "dev/master"
-  } 
+    } 
 ```
 Even if these packages are published to packagist, they'll be pulled in from the local path instead. That means that
  I can fork an open source package, clone the fork to my computer, do the work required to fix a bug or add a feature

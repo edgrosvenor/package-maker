@@ -59,10 +59,10 @@
             "@php artisan key:generate --ansi"
         ]
     },
-    "repositories": {
-        "addnew": {
+    "repositories": [
+        {
             "type": "path",
-            "url": "../../Packages/edgrosvenor/stubby"
+            "url": "../../Packages/*/*"
         }
-    }
+    ]
 }
